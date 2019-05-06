@@ -1,0 +1,6 @@
+CREATE TABLE `Textbook` (
+  `title` varchar(100) DEFAULT NULL,
+  `author` varchar(20) DEFAULT NULL,
+  `ISBN` smallint(6) DEFAULT NULL,
+  `edition` tinyint(4) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4
